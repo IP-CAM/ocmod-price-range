@@ -21,7 +21,7 @@ code package and also available on the project page: https://git.io/Jf9ZV.
 				if ($this->config->get('module_price_range_status')) {
 					$this->load->model('extension/module/price_range');
 
-					$store_settings = $this->model_extension_module_price_range->getStoreSettings();
+					$store_settings = $this->model_extension_module_price_range->getSettings();
 
 					if ($store_settings['status']) {
 						$product_options = $this->model_catalog_product->getProductOptions($data['product_id']);
@@ -71,7 +71,7 @@ code package and also available on the project page: https://git.io/Jf9ZV.
 				if ($this->config->get('module_price_range_status')) {
 					$this->load->model('extension/module/price_range');
 
-					$store_settings = $this->model_extension_module_price_range->getStoreSettings();
+					$store_settings = $this->model_extension_module_price_range->getSettings();
 
 					if ($store_settings['status']) {
 						$product_options = $this->model_catalog_product->getProductOptions($data['product_id']);
@@ -121,7 +121,7 @@ code package and also available on the project page: https://git.io/Jf9ZV.
 				if ($this->config->get('module_price_range_status')) {
 					$this->load->model('extension/module/price_range');
 
-					$store_settings = $this->model_extension_module_price_range->getStoreSettings();
+					$store_settings = $this->model_extension_module_price_range->getSettings();
 
 					if ($store_settings['status']) {
 						$product_options = $this->model_catalog_product->getProductOptions($data['product_id']);
@@ -171,7 +171,7 @@ code package and also available on the project page: https://git.io/Jf9ZV.
 				if ($this->config->get('module_price_range_status')) {
 					$this->load->model('extension/module/price_range');
 
-					$store_settings = $this->model_extension_module_price_range->getStoreSettings();
+					$store_settings = $this->model_extension_module_price_range->getSettings();
 
 					if ($store_settings['status']) {
 						$product_options = $this->model_catalog_product->getProductOptions($data['product_id']);

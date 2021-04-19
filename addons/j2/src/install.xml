@@ -16,10 +16,10 @@ page: https://raw.githubusercontent.com/ocmod-space/license/main/EULA.txt.
 	<file path="admin/controller/extension/module/price_range.php" error="log">
 		<operation error="log">
 			<search info="">
-				<![CDATA[$this->model_extension_event->addEvent('price_range', 'catalog/view/product/*/before', 'extension/module/price_range/showPriceRange');]]>
+				<![CDATA[$this->{$model}->addEvent('price_range', 'catalog/view/extension/module/*/before', 'extension/module/price_range/showPriceRange');]]>
 			</search>
 			<add position="after">
-				<![CDATA[			$this->model_extension_event->addEvent('price_range', 'catalog/view/journal2/module/*/before', 'extension/module/price_range/showPriceRange');]]>
+				<![CDATA[			$this->{$model}->addEvent('price_range', ''catalog/view/journal2/module/*/before', 'extension/module/price_range/showPriceRange');]]>
 			</add>
 		</operation>
 	</file>

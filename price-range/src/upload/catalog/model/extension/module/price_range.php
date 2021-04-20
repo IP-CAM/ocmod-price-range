@@ -1,9 +1,9 @@
 <?php
 
 /*
-This file is part of "Price Range" project and subject to the terms
-and conditions defined in file "LICENSE.txt", which is part of this source
-code package and also available on the project page: https://git.io/Jf9G9.
+This file is subject to the terms and conditions defined in the "LICENSE.txt"
+file that is part of this source code package and is also available on the
+page: https://raw.githubusercontent.com/ocmod-space/license/main/LICENSE.txt.
 */
 
 class ModelExtensionModulePriceRange extends Model {

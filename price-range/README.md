@@ -1,7 +1,7 @@
 # Price Range
 
 ## Description
-The «Price Range» extension is for Opencart CMS 3.x. It allows to display product price ranges based on manually entered values.
+The "Price Range" extension is for Opencart CMS 3.x. It allows to display product price ranges based on manually entered values.
 
 ## Features
 * Displays product price ranges based on manually entered values.
@@ -13,13 +13,13 @@ The «Price Range» extension is for Opencart CMS 3.x. It allows to display prod
 * [Front](http://ocmod.freevar.com/oc3020/c)
 
 ## Links
-* [Opencart Marketplace](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=33220)
 * [Homepage](https://underr.space/en/notes/projects/project-0020.html)
-* [Github](https://git.io/Jf9G9)
+* On [Opencart Marketplace](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=33220)
+* On [Github](https://github.com/ocmod-space/ocmod-price-range/tree/main/price-range)
 
 ## License
-* Licensed under the [MIT](https://git.io/Jf9Z3)
+* Licensed under the [MIT License](https://raw.githubusercontent.com/ocmod-space/ocmod-price-range/main/price-range/LICENSE.txt)
 
-## Related modules and extensions
-* [Live Options+](https://git.io/JfjUj)
-* [Live Options+ compatibility addon](https://git.io/JJv5J)
+## Related extensions
+* [Price Range+](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=38331)
+* [Live Product+](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=36005)

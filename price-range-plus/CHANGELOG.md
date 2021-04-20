@@ -1,5 +1,9 @@
 # Change log
 
+## [1.4.5] - 2021.04.20:
+### Added:
+- Wrapped price range prefixes in span tag with "price-range" class to customize
+
 ## [1.4.4] - 2021.04.19:
 ### Internal:
 - Minor fixes

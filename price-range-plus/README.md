@@ -1,7 +1,7 @@
 # Price Range+
 
 ## Description
-The «Price Range+» extension is for OpenCart CMS versions 2.2.x - 3.x. It allows to display product price ranges based on their option and special/discount prices.
+The «Price Range+» extension is for OpenCart CMS versions 2.2.x - 3.x. It allows to display product price ranges based on option and special/discount prices.
 
 ## Features
 * Display price ranges of products based on option prices, specials and discounts

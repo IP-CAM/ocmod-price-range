@@ -1,5 +1,11 @@
 # Change log
 
+## [1.5.0] - 2021.05.24:
+### Added:
+- Support of RTL languages
+### Internal
+- Code improvements
+
 ## [1.4.5] - 2021.04.20:
 ### Added:
 - Wrapped price range prefixes in span tag with "price-range" class to customize

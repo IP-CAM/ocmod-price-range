@@ -8,8 +8,8 @@ page: https://raw.githubusercontent.com/ocmod-space/license/main/EULA.txt.
 
 <modification>
 	<name>[underr] Price Range+ &lt; Journal3</name>
-	<code>price-range-plus--j3</code>
-	<version>1.0.0</version>
+	<code>price-range-plus--journal3</code>
+	<version>1.1.0</version>
 	<author>Andrii Burkatskyi aka underr</author>
 	<link>https://www.opencart.com/index.php?route=marketplace/extension&amp;filter_member=ocmod.space</link>
 
@@ -83,4 +83,20 @@ page: https://raw.githubusercontent.com/ocmod-space/license/main/EULA.txt.
 			</add>
 		</operation>
 	</file>
+	<file path="catalog/controller/journal3/price.php" error="log">
+		<operation error="log">
+			<search info="">
+				<![CDATA[$this->renderJson('success', $data);]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+			/// <<< Price Range+
+			if ($this->config->get('module_price_range_status') && !$product_option_values ) {
+				exit;
+			}
+			/// Price Range+ >>>]]>
+			</add>
+		</operation>
+	</file>
+
 </modification>
